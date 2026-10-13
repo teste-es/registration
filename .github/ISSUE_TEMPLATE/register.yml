@@ -1,0 +1,98 @@
+name: Register your group
+description: Register your group to get your team and repositories.
+title: "Group registration"
+labels: ["registration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in **every** member of your group, **including yourself**.
+        - Student number = digits only.
+        - GitHub username = the account you will use for the course.
+
+        After you submit, the bot checks the details. Every other member must then reply `/confirm` on this issue.
+        Your team and repositories are created automatically once everyone has confirmed.
+  - type: input
+    id: m1_number
+    attributes:
+      label: "Member 1 - student number"
+      placeholder: "61234"
+    validations:
+      required: true
+  - type: input
+    id: m1_user
+    attributes:
+      label: "Member 1 - GitHub username"
+      placeholder: "octocat"
+    validations:
+      required: true
+  - type: input
+    id: m2_number
+    attributes:
+      label: "Member 2 - student number"
+      placeholder: "61789"
+    validations:
+      required: true
+  - type: input
+    id: m2_user
+    attributes:
+      label: "Member 2 - GitHub username"
+      placeholder: "hubot"
+    validations:
+      required: true
+  - type: input
+    id: m3_number
+    attributes:
+      label: "Member 3 - student number"
+      placeholder: "61011"
+    validations:
+      required: true
+  - type: input
+    id: m3_user
+    attributes:
+      label: "Member 3 - GitHub username"
+      placeholder: "mona"
+    validations:
+      required: true
+  - type: input
+    id: m4_number
+    attributes:
+      label: "Member 4 - student number"
+      placeholder: "61213"
+    validations:
+      required: true
+  - type: input
+    id: m4_user
+    attributes:
+      label: "Member 4 - GitHub username"
+      placeholder: "tonsky"
+    validations:
+      required: true
+  - type: input
+    id: m5_number
+    attributes:
+      label: "Member 5 - student number"
+      placeholder: "61415"
+    validations:
+      required: true
+  - type: input
+    id: m5_user
+    attributes:
+      label: "Member 5 - GitHub username"
+      placeholder: "defunkt"
+    validations:
+      required: true
+  - type: input
+    id: m6_number
+    attributes:
+      label: "Member 6 - student number"
+      placeholder: "61617"
+    validations:
+      required: false
+  - type: input
+    id: m6_user
+    attributes:
+      label: "Member 6 - GitHub username"
+      placeholder: "mojombo"
+    validations:
+      required: false
