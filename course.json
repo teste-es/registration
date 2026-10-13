@@ -1,0 +1,9 @@
+{
+  "name": "Software Engineering",
+  "group_size": {
+    "min": 5,
+    "max": 6
+  },
+  "timezone": "Europe/Lisbon",
+  "classes": {}
+}
